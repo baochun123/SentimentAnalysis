@@ -1,6 +1,6 @@
 # SentimentAnalysis．
 
-目标: data里面有三个文本数据文件，neg.csv neutral.cav pos.csv 分别代表消极，中性和积极的三个情感分类。<br>
+目标: data里面有三个文本数据文件，neg.csv neutral.csv pos.csv 分别代表消极，中性和积极的三个情感分类。<br>
       要求实现一个分类器，对文本数据进行情感分析三分类。<br>
 
 task1:分别统计三个情感极性中词频最高的5000个词汇(去除停顿词后，停顿词表在data目录小stop_words.csv文件内)，作为标记词
