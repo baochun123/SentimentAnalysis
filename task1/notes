@@ -1,0 +1,27 @@
+任务1主要笔记内容：
+
+1.指向一个文件路径：
+对文件路径进行拼接
+import os
+os.path.join()
+
+2.python 内置csv包的使用
+
+import csv
+with open('test.csv','r') as f:
+    lines=csv.reader(f)
+    for line in lines:
+        print (line)
+
+
+3.python jieba 实现中文分词效果
+
+import jieba
+seg_list = jieba.cut("我来到北京清华大学", cut_all=False)
+print(seg_list)  # 精确模式
+
+4.python collections counter 实现计数统计
+
+from collections import Counter
+count=Counter([1,2,2,3,4,4,4])
+print(count)
